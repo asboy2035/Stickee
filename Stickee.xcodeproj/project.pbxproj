@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5E3B177B2D53DF8D0036F7A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E3B175F2D53DF8B0036F7A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3B17662D53DF8B0036F7A8;
+			remoteInfo = Stickee;
+		};
+		5E3B17852D53DF8D0036F7A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E3B175F2D53DF8B0036F7A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3B17662D53DF8B0036F7A8;
+			remoteInfo = Stickee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E3B17672D53DF8B0036F7A8 /* Stickee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3B177A2D53DF8D0036F7A8 /* StickeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3B17842D53DF8D0036F7A8 /* StickeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5E3B17692D53DF8B0036F7A8 /* Stickee */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Stickee;
+			sourceTree = "<group>";
+		};
+		5E3B177D2D53DF8D0036F7A8 /* StickeeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StickeeTests;
+			sourceTree = "<group>";
+		};
+		5E3B17872D53DF8D0036F7A8 /* StickeeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StickeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E3B17642D53DF8B0036F7A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3B17772D53DF8D0036F7A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3B17812D53DF8D0036F7A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E3B175E2D53DF8B0036F7A8 = {
+			isa = PBXGroup;
+			children = (
+				5E3B17692D53DF8B0036F7A8 /* Stickee */,
+				5E3B177D2D53DF8D0036F7A8 /* StickeeTests */,
+				5E3B17872D53DF8D0036F7A8 /* StickeeUITests */,
+				5E3B17682D53DF8B0036F7A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E3B17682D53DF8B0036F7A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E3B17672D53DF8B0036F7A8 /* Stickee.app */,
+				5E3B177A2D53DF8D0036F7A8 /* StickeeTests.xctest */,
+				5E3B17842D53DF8D0036F7A8 /* StickeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E3B17662D53DF8B0036F7A8 /* Stickee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3B178E2D53DF8D0036F7A8 /* Build configuration list for PBXNativeTarget "Stickee" */;
+			buildPhases = (
+				5E3B17632D53DF8B0036F7A8 /* Sources */,
+				5E3B17642D53DF8B0036F7A8 /* Frameworks */,
+				5E3B17652D53DF8B0036F7A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5E3B17692D53DF8B0036F7A8 /* Stickee */,
+			);
+			name = Stickee;
+			packageProductDependencies = (
+			);
+			productName = Stickee;
+			productReference = 5E3B17672D53DF8B0036F7A8 /* Stickee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E3B17792D53DF8D0036F7A8 /* StickeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3B17912D53DF8D0036F7A8 /* Build configuration list for PBXNativeTarget "StickeeTests" */;
+			buildPhases = (
+				5E3B17762D53DF8D0036F7A8 /* Sources */,
+				5E3B17772D53DF8D0036F7A8 /* Frameworks */,
+				5E3B17782D53DF8D0036F7A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E3B177C2D53DF8D0036F7A8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5E3B177D2D53DF8D0036F7A8 /* StickeeTests */,
+			);
+			name = StickeeTests;
+			packageProductDependencies = (
+			);
+			productName = StickeeTests;
+			productReference = 5E3B177A2D53DF8D0036F7A8 /* StickeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E3B17832D53DF8D0036F7A8 /* StickeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3B17942D53DF8D0036F7A8 /* Build configuration list for PBXNativeTarget "StickeeUITests" */;
+			buildPhases = (
+				5E3B17802D53DF8D0036F7A8 /* Sources */,
+				5E3B17812D53DF8D0036F7A8 /* Frameworks */,
+				5E3B17822D53DF8D0036F7A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E3B17862D53DF8D0036F7A8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5E3B17872D53DF8D0036F7A8 /* StickeeUITests */,
+			);
+			name = StickeeUITests;
+			packageProductDependencies = (
+			);
+			productName = StickeeUITests;
+			productReference = 5E3B17842D53DF8D0036F7A8 /* StickeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E3B175F2D53DF8B0036F7A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					5E3B17662D53DF8B0036F7A8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					5E3B17792D53DF8D0036F7A8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5E3B17662D53DF8B0036F7A8;
+					};
+					5E3B17832D53DF8D0036F7A8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5E3B17662D53DF8B0036F7A8;
+					};
+				};
+			};
+			buildConfigurationList = 5E3B17622D53DF8B0036F7A8 /* Build configuration list for PBXProject "Stickee" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E3B175E2D53DF8B0036F7A8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5E3B17682D53DF8B0036F7A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E3B17662D53DF8B0036F7A8 /* Stickee */,
+				5E3B17792D53DF8D0036F7A8 /* StickeeTests */,
+				5E3B17832D53DF8D0036F7A8 /* StickeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E3B17652D53DF8B0036F7A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3B17782D53DF8D0036F7A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3B17822D53DF8D0036F7A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E3B17632D53DF8B0036F7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3B17762D53DF8D0036F7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3B17802D53DF8D0036F7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E3B177C2D53DF8D0036F7A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E3B17662D53DF8B0036F7A8 /* Stickee */;
+			targetProxy = 5E3B177B2D53DF8D0036F7A8 /* PBXContainerItemProxy */;
+		};
+		5E3B17862D53DF8D0036F7A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E3B17662D53DF8B0036F7A8 /* Stickee */;
+			targetProxy = 5E3B17852D53DF8D0036F7A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E3B178C2D53DF8D0036F7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E3B178D2D53DF8D0036F7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5E3B178F2D53DF8D0036F7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stickee/Stickee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stickee/Preview Content\"";
+				DEVELOPMENT_TEAM = UCN29PZL3V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ash.Stickee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5E3B17902D53DF8D0036F7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stickee/Stickee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stickee/Preview Content\"";
+				DEVELOPMENT_TEAM = UCN29PZL3V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ash.Stickee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5E3B17922D53DF8D0036F7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UCN29PZL3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ash.StickeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stickee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stickee";
+			};
+			name = Debug;
+		};
+		5E3B17932D53DF8D0036F7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UCN29PZL3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ash.StickeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stickee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stickee";
+			};
+			name = Release;
+		};
+		5E3B17952D53DF8D0036F7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UCN29PZL3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ash.StickeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Stickee;
+			};
+			name = Debug;
+		};
+		5E3B17962D53DF8D0036F7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UCN29PZL3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ash.StickeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Stickee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E3B17622D53DF8B0036F7A8 /* Build configuration list for PBXProject "Stickee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3B178C2D53DF8D0036F7A8 /* Debug */,
+				5E3B178D2D53DF8D0036F7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3B178E2D53DF8D0036F7A8 /* Build configuration list for PBXNativeTarget "Stickee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3B178F2D53DF8D0036F7A8 /* Debug */,
+				5E3B17902D53DF8D0036F7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3B17912D53DF8D0036F7A8 /* Build configuration list for PBXNativeTarget "StickeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3B17922D53DF8D0036F7A8 /* Debug */,
+				5E3B17932D53DF8D0036F7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3B17942D53DF8D0036F7A8 /* Build configuration list for PBXNativeTarget "StickeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3B17952D53DF8D0036F7A8 /* Debug */,
+				5E3B17962D53DF8D0036F7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E3B175F2D53DF8B0036F7A8 /* Project object */;
+}
