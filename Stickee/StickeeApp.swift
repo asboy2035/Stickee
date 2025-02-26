@@ -31,7 +31,7 @@ struct StickeeApp: App {
         .windowResizability(.contentSize)
         .commands {
             CommandGroup(replacing: .newItem) {
-                Button("New Note") {
+                Button("newNoteLabel") {
                     NotificationCenter.default.post(name: Notification.Name("CreateNewNote"), object: nil)
                 }
                 .keyboardShortcut("n")
@@ -40,22 +40,22 @@ struct StickeeApp: App {
             CommandGroup(replacing: .saveItem) { }  // Remove default save menu items
             
             CommandGroup(after: .newItem) {
-                Button("Import Markdown") {
+                Button("importMarkdownLabel") {
                     NotificationCenter.default.post(name: Notification.Name("ImportMarkdown"), object: nil)
                 }
                 .keyboardShortcut("i")
             }
         }
         
-        MenuBarExtra("Stickee", systemImage: "note.text") {
-            Button("New Note") {
+        MenuBarExtra("appName", systemImage: "note.text") {
+            Button("newNoteLabel") {
                 NotificationCenter.default.post(name: Notification.Name("CreateNewNote"), object: nil)
             }
-            Button("Show All Notes") {
+            Button("showAllNotesLabel") {
                 NSApp.activate(ignoringOtherApps: true)
             }
             Divider()
-            Button("Quit") {
+            Button("quitLabel") {
                 NSApplication.shared.terminate(nil)
             }
         }

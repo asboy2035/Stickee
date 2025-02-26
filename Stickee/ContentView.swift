@@ -20,16 +20,16 @@ struct ContentView: View {
         NavigationStack {
             VStack(spacing: 16) {
                 VStack {
-                    Text("What's on your mind?")
+                    Text("welcomeLabel")
                         .font(.system(size: 24, weight: .bold, design: .serif))
                     
                     HStack {
-                        Button("Create New Note") {
+                        Button("createLabel") {
                             isShowingNewNoteSheet = true
                         }
                         .buttonStyle(.borderedProminent)
                         
-                        ColorPicker("Window Color", selection: $selectedColor)
+                        ColorPicker("windowColorLabel", selection: $selectedColor)
                             .onChange(of: selectedColor) {
                                 if let encodedData = try? JSONEncoder().encode(ColorComponents(color: selectedColor)) {
                                     savedColorComponents = encodedData
@@ -39,7 +39,7 @@ struct ContentView: View {
                 }
                 
                 List {
-                    Section("Your Notes") {
+                    Section("yourNotesLabel") {
                         ForEach(notes) { note in
                             NoteListItem(note: note, color: selectedColor)
                         }
@@ -54,7 +54,7 @@ struct ContentView: View {
             .scrollContentBackground(.hidden)
             .background(VisualEffectView(material: .sidebar, blendingMode: .behindWindow).edgesIgnoringSafeArea(.all))
             
-            .navigationTitle("Stickee")
+            .navigationTitle("appName")
             .sheet(isPresented: $isShowingNewNoteSheet) {
                 NewNoteView(color: selectedColor)
             }

@@ -17,7 +17,7 @@ struct NoteListItem: View {
             Text(note.content.prefix(50))
                 .lineLimit(1)
             Spacer()
-            Button("Open") {
+            Button("openButton") {
                 openNewWindow()
             }
         }

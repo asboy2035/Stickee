@@ -21,15 +21,15 @@ struct NewNoteView: View {
                     .frame(minHeight: 200)
             }
             .padding()
-            .navigationTitle("New Note")
+            .navigationTitle("newNoteLabel")
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Cancel") {
+                    Button("cancelLabel") {
                         dismiss()
                     }
                 }
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Save") {
+                    Button("saveLabel") {
                         let note = Note(content: content)
                         modelContext.insert(note)
                         try? modelContext.save()

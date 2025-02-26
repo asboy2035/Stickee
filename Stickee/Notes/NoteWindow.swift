@@ -17,7 +17,7 @@ struct NoteWindow: View {
     var body: some View {
         VStack {
             HStack {
-                Button(isEditing ? "View" : "Edit") {
+                Button(isEditing ? "viewButtonLabel" : "editButtonLabel") {
                     isEditing.toggle()
                 }
                 Spacer()
